@@ -1,0 +1,91 @@
+.upper-container {
+  background-image: url("../public/image2.jpg");
+  background-repeat: repeat repeat;
+  height: 20rem;
+}
+.upper-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center;
+  font-size: 2rem;
+  color: rgb(255, 255, 246);
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  font-size: 1rem;
+  color: #134e4a;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  color: #92400e;
+}
+
+.get-to-know-us {
+  font-size: 2rem;
+  color: #059669;
+  font-weight: bold;
+}
+
+.know-us-text {
+  color: #155e75;
+  font-size: 1.2rem;
+}
+
+img {
+  width: 28rem;
+}
+video {
+  width: 28rem;
+}
+
+.third-image{
+    height: 15rem;
+}
+
+.grid-view {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas: repeat(auto, minmax(auto, 1fr));
+  grid-template-areas: 
+    'first-text first-image'
+    'second-image second-text'
+    'third-text third-image'
+    'fourth-image fourth-text'
+}
+
+.heading-main-text-first{
+    grid-area: first-text;
+}
+
+.first-image{
+    grid-area: first-image;
+}
+
+.second-image{
+    grid-area: second-image;
+}
+
+.heading-main-text-second{
+    grid-area: second-text;
+}
+
+.heading-main-text-third{
+    grid-area: third-text;
+}
+
+.third-image{
+    grid-area: third-image;
+}
+
+.fourth-video{
+    grid-area: fourt-image;
+}
+.header-text-fourth{
+    grid-area: fourth-text;
+}

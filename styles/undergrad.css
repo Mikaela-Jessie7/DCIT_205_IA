@@ -1,0 +1,92 @@
+/*This is the styling for the undergraduate page*/
+
+.top-section-container{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-image: url('../public/UG\ SOL\ \'22.jpg');
+    height: 15rem;
+}
+
+.welcome-text{
+    background-color: #d4c5ec;
+}
+
+.bottom-support-text{
+    background-color: #b8aec9;
+}
+.top-section-texts{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    place-items: center;
+    color: #f5ecec;
+}
+
+.undergrad-middle{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 2rem;
+}
+img{
+    width: 30rem;
+}
+
+.undergrad-texts-container{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    max-width: 75ch;
+}
+.undergrad-text{
+    font-size: 2em;
+    color: #052e16;
+}
+
+.undergrad-page-text{
+    color:#4c0519;
+    font-size: 1rem;
+}
+
+.depart-undergraduate{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.comp-sci-codes{
+    display: flex;
+    gap: 2rem;
+}
+.last-section-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.know-text-long{
+    max-width: max-content;
+    font-size: 1.1rem;
+    color: #1e1b4b;
+}
+.know-text{
+    font-size: 2.5rem;
+    color: #1e1b4b;
+}
+img{
+    border-radius: 0.5rem;
+}
+
+summary{
+    color: #84cc16;
+}
+
+details[open]{
+    color: #4b7a05;
+}
+details:hover{
+    cursor: pointer;
+}

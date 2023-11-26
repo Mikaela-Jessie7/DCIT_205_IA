@@ -1,0 +1,62 @@
+/*This is the stling of the program structure page*/
+body{
+    background-image: linear-gradient(#ecfccb,#a7f3d0);
+}
+
+.program-header-section {
+  background-color: dimgrey;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.program-header-ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+.link {
+  color: #bef264;
+}
+
+.link:hover {
+  color: darkslategray;
+  background-color: #bef264;
+  transition-duration: 0.5s;
+}
+
+.img {
+  width: 20.5rem;
+  height: 3.52rem;
+}
+.university-text {
+  font-size: 1.2rem;
+}
+
+.comp-department-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+}
+
+.comp-text,
+.requirements {
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb(138, 248, 21);
+}
+.comp-text-long,
+.ssce-list {
+  font-size: 1.1rem;
+  color: #059669
+}

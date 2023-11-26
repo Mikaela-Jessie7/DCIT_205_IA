@@ -1,0 +1,18 @@
+/*This is the styling for the contact page*/
+
+.contact-us-text{
+    font-size: 2rem;
+    font-style: italic;
+    color: #1e3a8a;
+}
+
+.contact-us-long{
+    font-size: 1.1rem;   
+    text-align: center;
+}
+
+.office-location{
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #022c22;
+}

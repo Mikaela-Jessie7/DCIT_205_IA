@@ -1,0 +1,45 @@
+.undergrad-middle-texts{
+    display: flex;
+    flex-direction: column;
+}
+
+.masters-upper{
+    background-image: url('../public/UG\ SOL\ \'22.jpg');
+    color: #65a30d;
+}
+
+.masters-middle{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.masters-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.masters-main{
+    font-size: 1.3rem;
+}
+
+.masters-upper-text{
+    font-size: 1.5rem;
+}
+.masters-aside, .masters-long-text{
+    font-size: 1.2rem;
+}
+
+.masters-code, .electives, .masters-second-sem, .masters-mphil-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.masters-know-us{
+    font-size: 1.8rem;
+}
+.masters-know-us-long{
+    font-size: 1.2rem;
+}

@@ -31,6 +31,9 @@ I have learnt how to efficiently use html and css to build a website of my own. 
 ![Alt text](undergrad-3.png)
 ![Alt text](hod.png)
 ![Alt text](hod-2.png)
+![Alt text](events.png)
+![Alt text](events-2.png)
+![Alt text](events-3.png)
 
 # NAME:MIKAELA JESSIE AGBOYITOR.
 

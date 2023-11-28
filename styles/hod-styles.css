@@ -1,0 +1,25 @@
+/*Styles for the hod page*/
+
+body{
+    background-image: linear-gradient(#e8fad5, #86efac);
+}
+.hod-image, .hod-under{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.hod-text, .get-to-know{
+    font-size: 1.8rem;
+}
+
+.hod-texts, .interesting{
+    font-size: 1.2rem;
+    color: #3f6212;
+}
+
+.footers-container{
+    background-image: linear-gradient(#bbf7d0, #9cb3b2);
+}

@@ -1,0 +1,61 @@
+.events-header{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-image: url('../public/hod-side.jpg');
+    height: 20rem;
+}
+.events, .upcoming-event, .past-events{
+    font-size: 2.5rem;
+    color: white;
+}
+.upcoming-event{
+    color: rgb(44, 44, 226);
+}
+.past-events{
+    color: rgb(44, 44, 226);
+}
+
+.explore-events{
+    color: #1d4ed8;
+}
+.header-texts{
+    background-image: rgb(240, 222, 222);
+}
+.explore-events, .short-text{
+    font-size: 1.5rem;
+}
+
+.upcoming-event-text{
+    font-size: 1.2rem;
+}
+.image-text{
+    display: flex;
+    text-align: center;
+}
+.events-pics{
+    display: flex;
+}
+.events-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.events-date{
+    font-size: 1.3rem;
+}
+
+.image-wrap{
+    display: flex;
+
+}
+.wrapped{
+    display: flex;
+    flex-direction: column;
+}
+
+.cybertech-text{
+    font-size: 1.3rem;
+}
+.cybertech-texts{
+    font-size: 1.2rem;
+}

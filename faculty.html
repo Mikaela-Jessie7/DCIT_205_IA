@@ -3,64 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/researchpage.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/home-utils.css" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/program-struct.css" />
-    <link rel="stylesheet" href="./styles/contact.css" />
-    <title>Contact Page</title>
+    <link rel="stylesheet" href="./styles/undergrad.css">
+    <title>Undergraduate Page</title>
   </head>
   <body>
-    <div class="main-container">
-      <div class="program-header-section">
-        <ul class="program-header-ul">
-          <li class="home-list list">
-            <a href="./index.html" class="home-link link">Home</a>
-          </li>
-          <li class="home-list list">
-            <a href="./about.html" class="home-link link">About</a>
-          </li>
-          <li class="home-list list">
-            <a href="./undergrad.html" class="link">Undergraduate Programs</a>
-          </li>
-          <li class="home-list list">
-            <a href="./program-structure.html" class="home-link link">Program Structure</a>
-          </li>
-          <li class="home-list list">
-            <a href="./mphil-page.html" class="home-link link">Mphil</a>
-          </li>
-          <li class="home-list list">
-            <a href="./phd.html" class="home-link link">Phd</a>
-          </li>
-        </ul>
+    <div class="body-container">                              
+      <div class="header-section">
+        <div class="our-logo">
+          <img src="/public/comp-sci.png" class="department-img" />                
+        </div>
+        <header class="Philosophy-header">
+          <section class="headers-section">
+            <ul class="header-ul">
+              <li class="header-list">
+                <a href="./index.html">Home</a>                      
+              </li>
+              <li class="header-list">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="header-list">
+                <a href="./program-structure.html">Program Structure</a>                         
+              </li>
+              <li class="header-list">
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li class="header-list">
+                <a href="./mphil-page.html">Mphil</a>
+              </li>
+              <li class="header-list">
+                <a href="./phd.html">Phd</a>
+              </li>
+              <li>
+                <button class="sun-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2.25a.75.75 0 01.75.75v2.25a.
+                          75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 
+                          12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 
+                          6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75
+                           0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-
+                           .75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834
+                            18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </section>
+        </header>
       </div>
-      <div class="comp-department-logo logo">
-        <img class="img" src="./public/comp-sci.png" />
-        <p class="university-text text">
-          University of Ghana, Computer Science Department
-        </p>
-      </div>
-      <div class="contact-us">
-        <p class="contact-us-text">Contact Us:</p>
+      <div class="Faculty">
+        <p class="Faculty-text">Faculty:</p>
         <hr />
-        <p class="contact-us-long">
-          If there be any reasons for which you would like to reach out to us,
-          you can contact us and our team of abled professionals and we will be willing
-          to assist you with whatever assistance you need. Find below our
-          contact details.
+        <p class="Faculty-long">
+            "Welcome to the vibrant and innovative faculty of Computer Science. Our dedicated team of professors, researchers, and professionals is committed to fostering a dynamic learning environment that cultivates cutting-edge knowledge and practical skills in the ever-evolving world of technology.
+
+            At our faculty, we believe in empowering our students with a robust foundation in computer science, nurturing creativity, critical thinking, and problem-solving abilities. Our diverse range of programs and interdisciplinary approach encourages exploration and innovation, preparing individuals to thrive in a rapidly advancing digital landscape.
+            
+            Join us on a journey where theory meets practice, and curiosity sparks innovation. Together, let's embark on a quest to explore the frontiers of technology and make a meaningful impact on the world."
         </p>
       </div>
-      <div class="contact-details-main">
-        <p class="office-location">
-          Office Location: University of Ghana, opposite the Mathematics
-          department, in the RIPS building.
-        </p>
-        <p class="contact-email office-location">Telephone: +233 501382035</p>
-        <p class="contact-email office-location">
-          Postal Address: Department of Computer Science, University of Ghana,
-          Accra.
-        </p>
-        <p class="contact-email office-location">Email: ug@dcs.edu.gmail.com</p>
-      </div>
+
       <div class="fieldset-container">
         <fieldset class="field">
           <legend style="color: white">Get To Know Us:</legend>
@@ -96,7 +106,7 @@
                 <p class="mid-text">Placements For Level 200 students</p>
               </a>
               <a href="#">
-                <p class="mid-text">Students complaintr form</p>
+                <p class="mid-text">Students complaint form</p>
               </a>
               <a href="#">
                 <p class="mid-text">Level 200 &amp; 300 Students</p>
@@ -145,8 +155,8 @@
                 <a href="">
                   <p class="mid-text">Head of department</p>
                 </a>
-                <a href="./program-structure.html">
-                  <p class="mid-text">Program Structure</p>
+                <a href="#">
+                  <p class="mid-text">Faculty</p>
                 </a>
                 <a href="#">
                   <p class="mid-text">Events</p>

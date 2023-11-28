@@ -11,12 +11,18 @@ Well the purpose of the website is basically an Interim Assesment to test your u
 To clone the project:
 
 1. Run git clone DCIT_205_IA https://github.com/Mikaela-Jessie7/DCIT_205_IA.git in the terminal.
-   To start the project:
-2. Go into vscode, and with the live server extension installed, select open with live srver to run the project on a localhost server.
+   # To start the project:
+3. Go into vscode, and with the live server extension installed, select open with live server to run the project on a localhost server.
+
+# PROJECT STRUCTURE
+1. In this project, I have all css files in a folder called styles, with all html files in the root directory.
+2. This was meant to make the project well organised and orderly as possible as could be.
+3. There is also the public folder which contains all pictures and media.
 
 # WHAT I HAVE LEARNT FROM THE PROJECT.
 
-I have learnt how to efficiently use html and css to build a website of my own. i have learnt how git and git hub works and how to use it and above all I cannot overemphasize the fact that I have learnt to use my time wisely and know how to manage my time since I had to finish this work in a space of fourteen days.
+I have learnt how to efficiently use html and css to build a website of my own. I have learnt how git and git hub works and how to use it and above all I cannot overemphasize the fact that I have learnt to use my time wisely and know how to manage my time since I had to finish this work in a space of fourteen days. I have also learnt to be be very procedural and very tactical in the processe of web dev since a little instance of lack of focus can ruin and confuse you in the whole process of development.
+
 
 # Screenshots of pages.
 

@@ -2,6 +2,11 @@ a {
   color: #082f49;
 }
 
+img{
+  width: 20rem;
+  border-radius: 1rem;
+}
+
 .header-section {
   display: flex;
   justify-content: space-between;
@@ -163,6 +168,8 @@ a {
 
 .footer-slider-images-container {
   display: flex;
+  justify-content: center;
+  place-items: center;
 }
 
 .footer-slider-container {

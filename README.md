@@ -12,6 +12,15 @@ To start the project:
 # WHAT I HAVE LEARNT FROM THE PROJECT.
 I have learnt how to efficiently use html and css to build a website of my own. i have learnt how git and git hub works and how to use it and above all I cannot overemphasize the fact that I have learnt to use my time wisely and know how to manage my time since I had to finish this work in a space of fourteen days.
 
-
+# Screenshots of pages.
+![Alt text](home.png)
+![Alt text](home-2.png)
+![Alt text](home-3.png)
+![Alt text](msc-2.png)
+![Alt text](msc-3.png)
+![Alt text](msc-page.png) 
+![Alt text](undergrad-1.png) 
+![Alt text](undergrad-2.png) 
+![Alt text](undergrad-3.png)
 # NAME:MIKAELA JESSIE AGBOYITOR.
 # STUDENT ID : 11348840.
